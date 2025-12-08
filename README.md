@@ -1,8 +1,8 @@
 #  <p align="center">🌿**Epic Green Ecosystems**</p>
 
 <p align="center">
-  <img src="assets/Screenshot 2025-12-08 211801.png" alt="Epic Green Ecosystems Landing Page - Spices" width="100%">
-  <img src="assets/Screenshot 2025-12-08 212047.png" alt="Epic Green Ecosystems Landing Page - Taste Matters" width="100%">
+  <img src="assets/Screenshot 2025-12-08 211801.png" alt="Epic Green Ecosystems Landing Page - Spices" width="49%">
+  <img src="assets/Screenshot 2025-12-08 212047.png" alt="Epic Green Ecosystems Landing Page - Taste Matters" width="49%">
 </p>
 
 Epic Green Ecosystems is a Spice Management System designed to manage all aspects of spice production and sales. The system is divided into five main subsystems, developed collaboratively by our team, ensuring comprehensive management from plantation to analytics.
