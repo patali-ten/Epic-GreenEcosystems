@@ -7,7 +7,7 @@
 
 Epic Green Ecosystems is a Spice Management System designed to manage all aspects of spice production and sales. The system is divided into five main subsystems, developed collaboratively by our team, ensuring comprehensive management from plantation to analytics.
 
-> 📌 *Note:* This repository is a fork of the original group project.  
+> ⚠️ *Note:* This repository is a fork of the original group project.  
 > The modifications in this fork highlight my individual contributions, primarily in the Order and Sales Management subsystem.
 
 
