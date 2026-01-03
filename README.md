@@ -7,6 +7,31 @@
 
 Epic Green Ecosystems is a Spice Management System designed to manage all aspects of spice production and sales. The system is divided into five main subsystems, developed collaboratively by our team, ensuring comprehensive management from plantation to analytics.
 
+> 📌 *Note:* This repository is a fork of the original group project.  
+> The modifications in this fork highlight my individual contributions, primarily in the Order and Sales Management subsystem.
+
+
+## 👤 My Role & Contributions
+I was fully responsible for designing and implementing the **Order and Sales Management subsystem**, handling both **customer-facing** and **sales-officer-facing** workflows.
+
+**Key contributions:**
+- Designed and implemented complete order flows for **both local and export customers**, ensuring clear state transitions from request to completion.
+- Developed a **spice catalogue** with **Stripe payment integration**, including receipt generation and email/download delivery.
+- Built a **quotation request and approval workflow**, allowing customers to request quotes and sales officers to review and respond.
+- Implemented **automatic pricing**, **currency conversion**, and **tax calculation** based on destination country.
+- Generated finalized **quotation reports as PDFs**, enabling customer accept/reject decisions.
+- Implemented **order status tracking** for all order types with real-time updates.
+- Designed and maintained **separate dashboards** for customers and sales officers.
+- Developed **sales analytics** (monthly sales, top-selling spices) with downloadable reports.
+- Conducted domain research to ensure **realistic and logically consistent sales workflows**.
+
+**Tech Stack Used:**
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- Stripe API
+
 ## 🌱 **Subsystems/Features**
 ### 1. Plantation and Harvesting Management 
 - Track spice cultivation cycles and harvesting schedules.
@@ -17,20 +42,15 @@ Epic Green Ecosystems is a Spice Management System designed to manage all aspect
 ### 3. Supplier Management
 - Manage supplier details, orders, and deliveries.
 - Track supplier performance and reliability.
-### 4. Order and Sales Management 
-- Process customer orders (local and export) and invoices.
-- Monitor sales trends and generate monthly reports
-### 5. Admin and HR Analytics Management 
+### 4. Admin and HR Analytics Management 
 - Manage employee records and HR functions.
 - Provide analytics for workforce and operational insights.
 
 ## 🛠 **Installation / Setup**
 -  **Clone the repository or download it**
-
     ```bash
     git clone https://github.com/savidi/Epic-GreenEcosystems.git
     ```
-
 -  Ensure required software/dependencies are installed (database, server, etc.).
 -  Project Setup (MERN Stack):
 
@@ -47,49 +67,21 @@ Epic Green Ecosystems is a Spice Management System designed to manage all aspect
       - start the client application (npm start)
 
 ## ✏️ **Demo Credentials**
-> ### **Customer**
-> Email: `eve@gmail.com`
 
-> Password: `eve@123`
->
-> ---
->
-> ### **Field officer**
-> Email: `fieldmng@gmail.com`
+> ⚠️ *Note:* For this fork, demo credentials are provided primarily for roles related to the **Order and Sales Management subsystem**, which was my area of contribution.
 
-> Password: `4444`
->
-> ---
->
-> ### **Inventory Manager**
-> Email: `Inventrymng@gmail.com`
+### **Customer**
+Email: `eve@gmail.com`  
+Password: `eve@123`
 
-> Password: `2222`
->
-> ---
->
-> ### **Supplier Coordinator**
-> Email: `supliermng@gmail.com`
+---
 
-> Password: `1111`
->
-> ---
->
-> ### **Sales Manager**
-> Email: `salesmng@gmail.com`
-
-> Password: `3333`
->
-> ---
->
-> ### **Admin**
-> Email: `hrmng@gmail.com`
-
-> Password: `5555`
-
+### **Sales Manager**
+Email: `salesmng@gmail.com`  
+Password: `3333`
 ***
 
-You may also create a new account using the **Register** page.
+You can also create a new account for a Customer using the **Register** page.
 
 # 🚀 **Usage**
 - Access each subsystem via the main interface.
